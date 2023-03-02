@@ -1,1 +1,1 @@
-# quadro50x70.github.io
+# https://quadro50x70.github.io
