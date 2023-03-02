@@ -56,14 +56,14 @@ scene.add(pointLight, ambientLight);
 
 const mtlloader = new MTLLoader();
 mtlloader.load(
-    '../caixinhapendrive.mtl', 
+    '../quadro50x70.mtl', 
     (materials) => {
         materials.preload();
 
     const objloader = new OBJLoader();
     objloader.setMaterials(materials);
     objloader.load(
-        '../caixinhapendrive.obj', 
+        '../quadro50x70.obj', 
         (object) => {
             object.scale.set(80, 80, 80);
             scene.add(object);
